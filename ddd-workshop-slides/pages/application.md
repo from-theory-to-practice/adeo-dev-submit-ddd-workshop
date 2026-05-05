@@ -1,21 +1,29 @@
 ---
-layout: center
-class: text-center
+layout: image
+image: ../assets/backgrounds/background_2.svg
+backgroundSize: contain
 ---
 
-![backStage.png](../assets/backStage.png)
+<div class="flex justify-center items-center h-full">
+  <img src="../assets/backstage_no_background.png" />
+</div>
 
 <!--
-
 Comme on a déjà un super nom, on a fait 90% du travail.
 Ce qu'on vous propose aujourd'hui, c'est de faire les 10% restants ensemble, en utilisant les méthodologies du Domain-Driven Design.
-
 -->
 
 ---
 layout: image-right
 image: ../assets/mixer.jpg
----
+--- 
+
+<div class="absolute inset-0 w-1/2" style="background-image: url('../assets/backgrounds/background_3.svg'); background-size: cover;"></div>
+
+<div class="relative z-10">
+
+<br>
+<br>
 
 ## Business concepts ?
 
@@ -40,6 +48,8 @@ image: ../assets/mixer.jpg
 
 ### <v-click>pay</v-click>
 
+</div>
+
 <!--
 Quels sont les concepts métiers importants que l'on retient ?
 
@@ -57,7 +67,10 @@ class: text-center
 layout: center
 ---
 
+<div class="absolute inset-0" style="background-image: url('../assets/backgrounds/background_4.svg'); background-size: cover;"></div>
+
 ## UBIQUITOUS LANGUAGE
+
 
 <!--
 Ce qu'on vient de faire, c'est commencer à construire un langage commun entre nous, développeurs, et les experts métiers.
@@ -136,10 +149,14 @@ backgroundSize: contain
 ---
 layout: quote
 ---
+<div class="absolute inset-0" style="background-image: url('../assets/backgrounds/background_4.svg'); background-size: cover;"></div>
+<div class="relative z-10">
 
 # "All the models are wrong, but some are useful"
 
 George E. P. Box
+
+</div>
 
 <!--
 
@@ -165,6 +182,7 @@ layout: center
 class: text-center
 layout: center
 ---
+<div class="absolute inset-0" style="background-image: url('../assets/backgrounds/background_4.svg'); background-size: cover;"></div>
 
 ## Bounded Context
 
@@ -185,6 +203,7 @@ Et pour ça on va s'appuyer sur les...
 class: text-center
 layout: center
 ---
+<div class="absolute inset-0" style="background-image: url('../assets/backgrounds/background_4.svg'); background-size: cover;"></div>
 
 ## Sub-domains
 
@@ -210,12 +229,19 @@ layout: image-left
 image: ../assets/guitar.jpg
 ---
 
+<div class="absolute inset-y-0 right-0 w-1/2" style="background-image: url('../assets/backgrounds/background_4.svg'); background-size: cover; background-position: right;"></div>
+<div class="relative z-10">
+
+<br>
+<br>
+
 ## Sub-domains typologies
 
 <br><br>
 <h3 v-click>Core Domain</h3>
 <h3 v-click>Supporting Subdomain</h3>
 <h3 v-click>Generic Subdomain</h3>
+</div>
 
 <!--
 On peut découper le domaine métier en sous-domaines.
@@ -257,6 +283,15 @@ layout: image-right
 image: ../assets/mic.jpg
 ---
 
+<div class="absolute inset-0 w-1/2" style="background-image: url('../assets/backgrounds/background_3.svg'); background-size: cover;"></div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Strategic patterns
 
@@ -284,6 +319,12 @@ layout: image-left
 image: ../assets/amp.jpg
 ---
 
+<div class="absolute inset-y-0 right-0 w-1/2" style="background-image: url('../assets/backgrounds/background_4.svg'); background-size: cover; background-position: right;"></div>
+<div class="relative z-10">
+
+<br>
+<br>
+
 ## Tactical patterns
 <br>
 <br>
@@ -293,6 +334,7 @@ image: ../assets/amp.jpg
 <h3 v-click>Domain service</h3>
 <h3 v-click>Domain events</h3>
 
+</div>
 <!--
 
 Mais on a choisi aujourd'hui de se concentrer beaucoup plus longuement sur les patterns tactiques.
