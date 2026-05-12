@@ -6,11 +6,13 @@ class: text-center
 <div class="absolute inset-0" style="background-image: url('../assets/backgrounds/background_4.svg'); background-size: cover;"></div>
 
 ## Hands-on
+TODO rajouter tactical patterns
 
 <!--
-On va rentrer dans la partie tactique. Et plutôt que de présenter tous les concepts un par un, 
+On a fait la partie stratégique, on va rentrer dans la partie tactique. Et plutôt que de présenter tous les concepts un par un, 
 on va partir d'une approche naïve afin de les faire émerger au fur et à mesure.
 -->
+
 ---
 layout: center
 class: text-center
@@ -225,33 +227,4 @@ Plus besoin de code défensif pour vérifier les invariants, c'est l'aggregate q
 Plus facile à tester, plus facile à maintenir.
 
 TIMING: 1h30 min
--->
-
----
-layout: center
-class: text-center
----
-<div class="absolute inset-0" style="background-image: url('../assets/backgrounds/background_4.svg'); background-size: cover;"></div>
-
-## 4. Premium user
-
-<br>
-<br>
-<br>
-
-<div class="relative z-10">
-
-A musician can become a premium user by paying a subscription.
-
-A premium user can publish more ads than a free user.
-
-A basic user can publish up to 3 ads.
-
-</div>
-
-<!--
-
-Question: cette règle métier peut-elle être implémentée dans un aggregat existant? Lequel?
-Qu'est-ce que ça implique?
-
 -->
